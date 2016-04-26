@@ -1,0 +1,33 @@
+<div ng-controller="usersController">  
+ 
+    <h3>Data User</h3>
+
+
+    <button onclick="location.href='#/addNewUser'">Add New User</button>
+    <table border="1" style="margin-top: 10px">
+        <thead >
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Sex</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Address</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="item in registrations">
+                <td>{{item.nama_depan}}</td>
+                <td>{{item.nama_belakang}}</td>
+                <td>{{item.sex}}</td>
+                <td>{{item.email}}</td>
+                <td>{{item.NoTlp}}</td>
+                <td>{{item.Alamat}}</td>
+                <td><a href="#/editData/{{item.id_user}}">Edit</a></td>
+                <td><a href="" ng-click="deleteData(item.id_user)">Delete</a></td>
+             </tr>
+        </tbody>
+    </table>
+</div>

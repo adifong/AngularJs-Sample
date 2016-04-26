@@ -1,0 +1,83 @@
+<style type="text/css">
+
+	#wrapper{
+		margin: auto;
+		width: 960px;
+
+	}
+
+	ul[role=navigation] li{
+		display: inline;
+		font-family: futura, arial, sans-serif;
+		text-transform: uppercase;
+	}
+
+	ul[role=navigation] li a{
+		position: relative;;
+		top:0;
+		transition: 0.2s all linear;
+		text-decoration: none;
+		color: #fff;
+		padding: 0.8rem 1.2rem 2rem 1.2rem;
+		border:  1px solid #777;
+		border-radius: 5px 5px 0 0 ;
+		background: linear-gradient(to bottom, #dfc891, #776c51);
+		box-shadow: 0 015px rgba(0,0,0,0.5);
+		letter-spacing: 0.15rem; text-shadow: 0 1px 0 #000;
+	}
+
+
+	ul[role=navigation]{
+		
+		background: #000;
+		padding-top: 3.2rem;
+		padding-bottom: 1rem;
+		overflow: hidden;
+		margin-top: 0;
+	}
+
+
+	ul[role=navigation] li{
+		display: inline;
+		font-family: futura, arial, sans-serif;
+		text-transform: uppercase;
+		margin-left: -.5em;
+	}
+
+	ul[role=navigation] li a.forefront{
+			-0.2rem; z-index: 2;
+	}
+
+	ul[role=navigation] li a:hover ,ul[role=navigation] li a:focus, ul[role=navigation] li a.active {
+		top: -0.6rem;
+	}
+
+	form{
+		padding: 10px;
+		background: blue;
+		font-size: 1.2rem;
+		font-family: "Gill Sans",Arial,sans-serif;
+
+	}
+
+	label,input{
+		display: block;
+		color: #000;
+
+	}
+
+	label:first-letter{
+		border-bottom: 2px solid #bbb;
+	}
+	input{
+		border:1px solid #bbb;
+		padding: .4rem;
+		border-radius: .2rem;
+		margin: .5rem 0;
+		margin-bottom: 15px;
+	}
+	
+
+
+
+	</style>

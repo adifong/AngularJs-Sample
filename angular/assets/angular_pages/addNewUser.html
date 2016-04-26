@@ -1,0 +1,58 @@
+
+<h3>Add New User</h3>
+
+<div>
+	
+	<table>
+		<tbody>
+			<tr>
+				<td>Nama Depan</td>
+				<td>:</td>
+				<td><input type="text" name="nama_depan" id="nama_depan" ng-model="nama_depan" /></td>
+			</tr>
+			<tr>
+				<td>Nama Belakang</td>
+				<td>:</td>
+				<td><input type="text" name="nama_Belakang" id="nama_Belakang" ng-model="nama_belakang" /></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<select name="sex" id="sex" ng-model="sex">
+						<option value="pria">Pria</option>
+						<option value="wanita">Wanita</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input type="text" name="email" id="email" ng-model="email" /></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="text" name="password" id="password" ng-model="password" /></td>
+			</tr>
+			<tr>
+				<td>Alamat Rumah</td>
+				<td>:</td>
+				<td>
+					<textarea id="alamat_rumah" name="alamat_rumah" cols="30" rows="4" ng-model="alamat"></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>No Hp</td>
+				<td>:</td>
+				<td>
+					<input type="text" name="no_hp" id="no_hp" ng-model="notlp" />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3"><button ng-click="addNewUser()">Save</button></td>
+			</tr>
+		</tbody>
+	</table>
+
+</div>
