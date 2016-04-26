@@ -43,12 +43,6 @@ CREATE TABLE `tbl_user` (
 -- Dumping data for table `tbl_user`
 --
 
-INSERT INTO `tbl_user` (`id_user`, `nama_depan`, `nama_belakang`, `email`, `password`, `mod_date`, `flag_active`, `Alamat`, `NoTlp`, `sex`) VALUES
-(1, 'adi', 'putra', 'adiputra_fong@yahoo.com', 'adiputra89', '0000-00-00', 0, '', '', ''),
-(2, 'adi', 'adi', 'adi@gmail.com', '1234', '0000-00-00', 0, 'Jl Mahkota', '33333', 'pria'),
-(3, 'xxx', 'xxx', 'xxx@gmail.cm', 'sss', '0000-00-00', 0, 'JL Oktober', '084921222222', 'pria'),
-(10, 'budi', 'susanto', 'budi@gmail.com', 'budi', '0000-00-00', 0, 'Jl ssusanto', '08592321111', 'pria'),
-(11, 'agnes', 'monic', 'agnes@gmail.com', 'agnes1234', '0000-00-00', 0, 'Jl Pondok indah', '085923821112', 'wanita');
 
 --
 -- Indexes for dumped tables
